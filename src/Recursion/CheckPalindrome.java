@@ -12,9 +12,6 @@ public class CheckPalindrome {
             }
             return true;
         }
-        if(str.charAt(index1) != str.charAt(index2)){
-            return false;
-        }
         return isPalindrome(str, index1 + 1, index2 - 1) ;
     }
     public static void main(String[] args) {

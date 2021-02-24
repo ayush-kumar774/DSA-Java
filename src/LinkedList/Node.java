@@ -22,7 +22,7 @@ public class Node {
                 System.out.print(head.data + " -> ");
                 head = head.next;
             }
-            System.out.print("null") ;
+            System.out.println("null") ;
         }
     }
 }
